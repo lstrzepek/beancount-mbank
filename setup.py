@@ -19,7 +19,7 @@ def read(*names, **kwargs):
 
 setup(
     name='beancount-mbank',
-    version='0.0.0',
+    version='0.1.0',
     license='MIT',
     description='Beancount Importer for mBank (PL) CSV exports',
     long_description='{}\n{}'.format(

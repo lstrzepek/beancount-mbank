@@ -18,7 +18,7 @@ project = 'beancount-mbank'
 year = '2023'
 author = 'Łukasz Strzępek'
 copyright = '{0}, {1}'.format(year, author)
-version = release = '0.0.0'
+version = release = '0.1.0'
 
 pygments_style = 'trac'
 templates_path = ['.']
