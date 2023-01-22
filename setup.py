@@ -20,14 +20,15 @@ def read(*names, **kwargs):
 setup(
     name='beancount-mbank',
     version='0.0.0',
-    license='BSD-2-Clause',
+    license='MIT',
     description='Beancount Importer for mBank (PL) CSV exports',
     long_description='{}\n{}'.format(
-        re.compile('^.. start-badges.*^.. end-badges', re.M | re.S).sub('', read('README.rst')),
+        re.compile('^.. start-badges.*^.. end-badges',
+                   re.M | re.S).sub('', read('README.rst')),
         re.sub(':[a-z]+:`~?(.*?)`', r'``\1``', read('CHANGELOG.rst')),
     ),
     author='Łukasz Strzępek',
-    author_email='contact@ionelmc.ro',
+    author_email='lstrzepek@gmail.com',
     url='https://github.com/lstrzepek/beancount-mbank',
     packages=find_packages('src'),
     package_dir={'': 'src'},
@@ -38,7 +39,7 @@ setup(
         # complete classifier list: http://pypi.python.org/pypi?%3Aaction=list_classifiers
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: BSD License',
+        'License :: OSI Approved :: MIT License',
         'Operating System :: Unix',
         'Operating System :: POSIX',
         'Operating System :: Microsoft :: Windows',
@@ -56,7 +57,7 @@ setup(
         # 'Programming Language :: Python :: Implementation :: IronPython',
         # 'Programming Language :: Python :: Implementation :: Jython',
         # 'Programming Language :: Python :: Implementation :: Stackless',
-        'Topic :: Utilities',
+        'Topic :: Office/Business :: Financial :: Accounting',
     ],
     project_urls={
         'Documentation': 'https://beancount-mbank.readthedocs.io/',
@@ -64,10 +65,11 @@ setup(
         'Issue Tracker': 'https://github.com/lstrzepek/beancount-mbank/issues',
     },
     keywords=[
-        # eg: 'keyword1', 'keyword2', 'keyword3',
+        "banking", "beancount", "cli-accounting", "finance"
     ],
     python_requires='>=3.7',
     install_requires=[
+        'beancount>=2.3.5'
         # eg: 'aspectlib==1.1.1', 'six>=1.7',
     ],
     extras_require={

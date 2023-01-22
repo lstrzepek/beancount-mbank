@@ -57,7 +57,6 @@ Overview
 
 Beancount Importer for mBank (PL) CSV exports
 
-* Free software: BSD 2-Clause License
 
 Installation
 ============

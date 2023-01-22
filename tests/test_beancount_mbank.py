@@ -1,6 +1,7 @@
 
-from beancount_mbank.cli import main
+from beancount_mbank.mbank import MBankImporter
 
 
 def test_main():
-    assert main([]) == 0
+    importer = MBankImporter(account="Assets:MBank:Debit")
+    assert importer.name() == "MBankImporter: Assets:MBank:Debit"
