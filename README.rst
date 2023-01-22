@@ -47,9 +47,9 @@ Overview
     :alt: Supported implementations
     :target: https://pypi.org/project/beancount-mbank
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/lstrzepek/beancount-mbank/v0.0.0.svg
+.. |commits-since| image:: https://img.shields.io/github/commits-since/lstrzepek/beancount-mbank/v/v/v0.0.0...main.svg.svg
     :alt: Commits since latest release
-    :target: https://github.com/lstrzepek/beancount-mbank/compare/v0.0.0...main
+    :target: https://github.com/lstrzepek/beancount-mbank/compare/v/v/v0.0.0...main.svg...main
 
 
 
